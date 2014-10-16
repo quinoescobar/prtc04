@@ -26,7 +26,7 @@ class TestComplejo < Test::Unit::TestCase
     end
 
     def test_division
-	assert_equal("0.6829268292682927",t.a.to_s)	
+	assert_equal("0.682926829",t.a.to_s)	
     end
     
     def test_multiplicacion
